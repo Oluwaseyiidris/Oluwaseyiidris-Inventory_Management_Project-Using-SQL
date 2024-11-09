@@ -43,8 +43,6 @@ The metrics extracted in this analysis provide critical insights that help drive
 
  **Product Pricing Patterns**:
     **Most and Least Expensive Products**: Identifying the most and least expensive products per supplier helps focus cost-control strategies. Expensive items might be essential but costly, potentially warranting price negotiations or alternative sourcing. Low-cost items offer opportunities to bundle or emphasize in promotions.
- [Item Analysis Result](item_analysis.md)
-  [Supplier Pricing Result](supplier_pricing.md)
 
 
  **Inventory Cost Updates**:
