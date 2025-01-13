@@ -16,6 +16,7 @@ This project uses a camera dataset with three main tables located in the databas
 items: Contains information about each camera product, including ItemID, ItemName, and UnitPrice. suppliers: Contains details about suppliers, including SupplierID and SupplierName. supplies (renamed to price): Records supply transactions, linking items and suppliers along with unit prices.
 
 Insights
+
 The metrics extracted in this analysis provide critical insights that help drive business decisions. Here is a breakdown of how each analysis helps:
 
 Supplier Pricing Analysis: Total, Average, Highest, and Lowest Prices: Summarizing pricing data helps the business evaluate each supplier's cost-effectiveness. For instance, finding suppliers with lower average prices can indicate better cost-saving options, while identifying those with higher prices may highlight premium suppliers or areas for negotiation. Count of Supplies by Supplier: The total number of supplies from each supplier reveals which suppliers the business relies on most heavily. Suppliers with high supply counts could be strategic partners, while low-count suppliers may require a review for efficiency.
