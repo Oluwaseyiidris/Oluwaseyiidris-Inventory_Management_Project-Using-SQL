@@ -1,16 +1,21 @@
 Inventory and Supplier Management Analysis Using SQL
+
 Project Description
+
 This project analyzes an inventory management system's database focused on camera data. It aims to uncover valuable insights on product details, supplier performance, and pricing strategies, demonstrating SQL skills in data querying, data manipulation, and analysis.
 
 Objectives
+
 To explore tables containing items, suppliers, and supply transactions. To analyze the cost of items and identify suppliers pricing patterns. To calculate total, average, highest, and lowest prices of supplies. To identify the most and least expensive products provided by each supplier. To manipulate data by updating item prices and renaming table columns.
 
 Project Structure
+
 This project is organized into several SQL files, each containing queries focused on a different aspect of the analysis:
 
 database_setup.sql: Sets up the database, selects the schema, and displays available tables. table_views.sql: Displays details of each table, including items, suppliers, and supplies. item_analysis.sql: Fetches item-specific data such as item names and unit prices. supplier_pricing.sql: Fetches supplier data and performs price-related calculations (e.g., total, average, highest, lowest prices). price_update.sql: Updates unit prices by a set percentage and renames tables for clarity. product_extremes.sql: Identifies the most and least expensive products provided by each supplier.
 
 Dataset Information
+
 This project uses a camera dataset with three main tables located in the database:
 
 items: Contains information about each camera product, including ItemID, ItemName, and UnitPrice. suppliers: Contains details about suppliers, including SupplierID and SupplierName. supplies (renamed to price): Records supply transactions, linking items and suppliers along with unit prices.
@@ -26,4 +31,5 @@ Product Pricing Patterns: Most and Least Expensive Products: Identifying the mos
 Inventory Cost Updates: Price Increase Simulation: A 5% price increase simulation reflects real-world scenarios, such as inflation. This helps assess the impact on inventory costs, providing a forecast of expenses that can guide budgeting and pricing strategies.
 
 Conclusion
+
 By conducting this analysis, we gain a clearer view of the overall cost structure and supplier efficiency, helping the business make data-informed decisions. These insights can guide cost-saving measures, negotiation tactics, and inventory planning strategies, ultimately supporting profitability and operational efficiency.
